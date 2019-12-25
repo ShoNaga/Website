@@ -8,6 +8,7 @@ body {
   height: 200px;
   display: flex;
   border: 1px solid #979797;
+  margin-bottom: 60px;
 }
 
 .header_left {
@@ -28,4 +29,24 @@ body {
 .header_right {
   width: 30%;
   background-color: #000;
+}
+
+.container {
+  height: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.footer {
+  height: 300px;
+  width: 100%;
+  background-image: url("./images/footer_image.png");
+  background-size: cover;
+}
+
+.footer p {
+  padding: 250px 0 10px 0;
+  text-align: center;
+  color: #FFF;
 }
