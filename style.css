@@ -3,3 +3,29 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  height: 200px;
+  display: flex;
+  border: 1px solid #979797;
+}
+
+.header_left {
+  width: 30%;
+  background-color: #0548D2;
+}
+.header_center {
+  width: 40%;
+  background-color: #FFF;
+}
+.header_center h1 {
+  margin: 0;
+  padding: 85px 90px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.header_right {
+  width: 30%;
+  background-color: #000;
+}
